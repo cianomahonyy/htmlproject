@@ -1,0 +1,467 @@
+body, html {
+    height:100%;
+    margin:0;
+    padding: 0;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+.row {
+    margin-right: -15px;
+}
+
+#section1{
+   background-color: rgb(238, 0, 90);
+}
+
+#section2{
+    background-color: rgb(44, 62, 80);
+}
+
+#section3{
+    background-color: rgb(51, 153, 204);
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
+
+.cv-image {
+    background-image:url('../images/wavebg.jpeg');
+    min-height:100%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.homepage-image {
+    background-image:url('../images/workbg.jpeg');
+    min-height:33.3%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-filter: saturate(120%); /* Safari */
+    filter: saturate(120%);
+    overflow:hidden;
+}
+
+.homepage-image:hover {
+    -webkit-filter: saturate(150%); /* Safari */
+    filter: saturate(150%);
+}
+
+.sportortravel-image {
+    background-image:url('../images/surfing.jpg');
+    min-height:50%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-filter: saturate(120%); /* Safari */
+    filter: saturate(120%);
+    overflow:hidden;
+}
+
+.sportortravel-image:hover {
+    -webkit-filter: saturate(200%); /* Safari */
+    filter: saturate(200%);
+    -webkit-filter: contrast(120%); /* Safari */
+    filter: contrast(120%);
+}
+
+.sportortravel-image2:hover {
+    -webkit-filter: saturate(200%); /* Safari */
+    filter: saturate(200%);
+    -webkit-filter: contrast(120%); /* Safari */
+    filter: contrast(120%);
+}
+
+.sportortravel-image2 {
+    background-image:url('../images/sanfran.jpeg');
+    min-height:50%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-filter: saturate(120%); /* Safari */
+    filter: saturate(120%);
+    overflow:hidden;
+}
+
+.sportortravel-image:hover > #homepage-title a {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.sportortravel-image2:hover > #homepage-title a {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+#homepage-title a {
+    position: absolute;
+    top:40%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    font-size:27px;
+    letter-spacing:4px;
+    border:0;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+
+.homepage-image:hover > #homepage-title a {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.homepage-image2:hover > #homepage-title a {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.homepage-image3:hover > #homepage-title a {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.homepage-image2 {
+    background-image:url('../images/wavebg.jpeg');
+    min-height:33.3%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-filter: saturate(120%); /* Safari */
+    filter: saturate(120%);
+    overflow:hidden;
+}
+
+.homepage-image2:hover {
+    -webkit-filter: saturate(200%); /* Safari */
+    filter: saturate(200%);
+}
+
+.homepage-image3 {
+    background-image:url('../images/cloudbg.jpeg');
+    min-height:33.3%;
+    position:relative;
+    opacity:0.80;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-filter: saturate(120%); /* Safari */
+    filter: saturate(120%);
+    overflow:hidden;
+}
+
+.homepage-image3:hover {
+    -webkit-filter: saturate(200%); /* Safari */
+    filter: saturate(200%);
+}
+
+.cv-title {
+    position: absolute;
+    top:20%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    font-size:27px;
+    letter-spacing:8px;
+}
+
+.navbar {
+    padding-top: 100px;
+    margin: auto;
+    width: 540px;
+}
+
+.nav {
+    display: inline-block;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li > a {
+    padding-right: 40px;
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../images/menutoggle.png");
+  background-repeat: no-repeat;
+  width:36px;
+  height:36px;
+  margin-left: 200px;
+}
+
+.aboutme-heading {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.aboutme-subheading {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.aboutme-paragraph {
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.wrapper {
+    background-color: #f05f40;
+    height: 500px;
+}
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background:#eee;
+    height:35px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+width:110px;
+    font-weight:bold;
+    font-size:13px;
+    color:#ffffff;
+    background:#6adcfa;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+    display:block;
+    background:rgba(0, 0, 0, 0.1);
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    background:#6adcfa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:11px;
+    height:35px;
+    line-height:35px;
+    color:#ffffff;
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.wrapper-skills {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
+
+    h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:0;
+    }
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+    .section{
+        text-align:center;
+    }
+
+
+    /* Backgrounds will cover all the section
+    * --------------------------------------- */
+    #section1,
+    #section2,
+    #section3{
+        background-size: cover;
+    }
+
+    /* Defining each section background and styles
+    * --------------------------------------- */
+    #section1{
+        background-image: url(../images/spain.jpeg);
+    }
+    #section2{
+        background-image: url(../images/tahiti.jpeg);
+        padding: 6% 0 0 0;
+    }
+    #section3{
+        background-image: url(../images/sanfran.jpeg);
+        padding: 6% 0 0 0;
+    }
+    #section3 h1{
+        color: #000;
+    }
+
+
+
+    #spain-title {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 40%;
+        color: #fff;
+        font-size:100px;
+    }
+
+    #spain-subtitle {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 20%;
+        color: #fff;
+        font-size:15px;
+    }
+
+    #section2 .intro{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30px;
+    }
+    #section2 h1,
+    #section2 p{
+        text-shadow: 1px 5px 20px #000;
+    }
+
+    #section3 h1,
+    #section3 p{
+        text-shadow: 1px 5px 20px #000;
+        color: #fff;
+    }
+
+    #infoMenu li a{
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
