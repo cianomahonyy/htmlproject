@@ -7,33 +7,31 @@ function calcSub(){
     
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
-      discount = argSubTotal * 0.05;
-      vat = argSubTotal * 0.1;
-      total = argSubTotal - discount - vat;
     }
     else if(document.getElementById('aws').checked) {
       argSubTotal = 300;
-      discount = argSubTotal * 0.05;
-      vat = argSubTotal * 0.1;
-      total = argSubTotal - discount - vat;
     }
     else if(document.getElementById('cloud9').checked) {
       argSubTotal = 200;
-      discount = argSubTotal * 0.05;
-      vat = argSubTotal * 0.1;
-      total = argSubTotal - discount - vat;
     }
     else if(document.getElementById('gmail').checked) {
       argSubTotal = 400;
-      discount = argSubTotal * 0.05;
-      vat = argSubTotal * 0.1;
-      total = argSubTotal - discount - vat;
     }
     else {
       argSubTotal = 0;
     }
     
-    display(argSubTotal, vat, discount, total);
+    display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
+}
+
+function calcDisVatTotal(parmSubTotal){
+  var argSubTotal = parmSubTotal;
+  var vat = parmSubTotal * 0.1;
+  var discount = parmSubTotal * 0.05;
+  var total = parmSubTotal - discount - vat;
+  
+  display(argSubTotal, vat, discount, total);
 }
 
 

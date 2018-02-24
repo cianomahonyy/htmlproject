@@ -76,21 +76,21 @@
               
               
               
-              <label for="total">
+              <label for="subtotal">
                 subtotal
               <input type="text" id="subtotal" value="0.00" readonly/>
               </label>
             
               </br>
               
-              <label for="total">
+              <label for="discount">
                 Discount
               <input type="text" id="discount" value="0.00" readonly/>
               </label>
             
               </br>
               
-              <label for="total">
+              <label for="vat">
                 Vat
               <input type="text" id="vat" value="0.00" readonly/>
               </label>
