@@ -87,9 +87,43 @@ h1 {
 }
 
 #subtotal-title {
-	font-size: 100px;
+	font-size: 40px;
 }
 
 .addtocartwrapper {
-	padding-bottom: 200px;
+	left: 50%;
+}
+
+
+#vat, #total, #subtotal, #discount {
+	width: 25%;
+	padding: 12px 20px;
+	margin-top: 5px;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+
+#btnProceed {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#btnProceed:disabled {
+	background-color: #c1c1c1; /* Green */
+}
+
+#clearchoice {
+	color:#666;
+}
+
+#subtotal-title {
+	font-size: 20px;
 }

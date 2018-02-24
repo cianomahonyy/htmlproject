@@ -72,34 +72,35 @@
             
     <div align="center" class="addtocart-wrapper">        
     
+    
             <form method="POST" action="ebus2.php">
               
               
               
               <label for="subtotal">
-                subtotal
-              <input type="text" id="subtotal" value="0.00" readonly/>
+              <h2 id="subtotal-title">Subtotal</h2>
+              <input type="text" id="subtotal" value="" readonly/>
               </label>
             
               </br>
               
               <label for="discount">
-                Discount
-              <input type="text" id="discount" value="0.00" readonly/>
+              <h2 id="subtotal-title">Discount</h2>
+              <input type="text" id="discount" value="" readonly/>
               </label>
             
               </br>
               
               <label for="vat">
-                Vat
-              <input type="text" id="vat" value="0.00" readonly/>
+              <h2 id="subtotal-title">VAT</h2>
+              <input type="text" id="vat" value="" readonly/>
               </label>
             
               </br>
               
               <label for="total">
-                Total
-                <input type="text" id="total" name="total" value="0.00" readonly/>
+              <h2 id="subtotal-title">Subtotal</h2>
+              <input type="text" id="total" name="total" value="" readonly/>
               </label>
     
               <br/>
@@ -108,7 +109,7 @@
             
             </form>
             
-            <a role="button" href="ebus1.php">Clear Choice</a>
+            <a role="button" id="clearchoice" href="ebus1.php">Clear</a>
     
     </div>
     
