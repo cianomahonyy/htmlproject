@@ -38,23 +38,33 @@ session_start();
         
         
         
+        <div align="center" class="addtocart-wrapper">
         
-        
-        <h4>Please enter your payment details</h4>
+        <h4 id="paymentdetails">Enter Your Payment Details</h4>
         
         
             <form action="ebus3.php" method="POST">
 
-                    <label for="user_pin">PIN</label>
+                    <label for="user_pin">
                     
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                    
+                    </label>
+            
+            </br>
+            
+            <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            
+            
+            <button id="btnValidate" onClick="validateDetails()" enabled>Validate</button>
+            
+            
+            
+        </div>    
             
             <?php
             // Set session variables

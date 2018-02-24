@@ -33,7 +33,7 @@
     <div align="center" class="services">
         <div class="service1">
           <h1>Salesforce</h1>
-          <a href="#"><img class="image" src="http://www.bridgethegap.com/wp-content/uploads/2017/02/salesforce-best-practices.png"></a>
+          <a href="#"><img class="image" src="../images/salesforce.png"></a>
           <p>Salesforce</p>
           <label for="salesforce">
             <input type="radio" onClick="calcSub()" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -42,16 +42,18 @@
 
         <div class="service1">
           <h1>Cloud 9</h1>
+          <div class="cloud9">
           <a href="#"><img class="image" src="../images/cloud9.png"></a>
           <p>Cloud 9</p>
           <label for="cloud9">
               <input type="radio" onClick="calcSub()" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
           </label>
         </div>
+        </div>
 
         <div class="service1">
           <h1>Amazon Web Services</h1>
-          <a href="#"><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2000px-AWS_Simple_Icons_AWS_Cloud.svg.png"></a>
+          <a href="#"><img class="image" src="../images/aws.png"></a>
           <p>Amazon Web Services</p>
           <label for="aws">
               <input type="radio" onClick="calcSub()" id="aws" name="product" onClick="disablebtnProceed()"/>
@@ -60,7 +62,7 @@
 
         <div class="service1">
           <h1>Gmail</h1>
-          <a href="#"><img class="image" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gmail_logo.max-2800x2800.png"></a>
+          <a href="#"><img class="image" src="../images/gmail.png"></a>
           <p>Gmail</p>
           <label for="gmail">
               <input type="radio" onClick="calcSub()" id="gmail" name="product" checked onClick="disablebtnProceed()"/>

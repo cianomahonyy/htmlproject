@@ -42,13 +42,24 @@ body {
 
 .service1 {
 	width: 22%;
+	height: 322px;
 	border: 1px solid #c1c1c1;
 	margin: 20px 10px;
 	padding: 0 5px;
 	float: left;
 }
 
+.cloud9 {
+	padding-top: 17px;
+}
+
 .service1 > p {
+	font-size: 14px;
+	color: #636363;
+	max-width: 250px;	
+}
+
+.cloud9 > p {
 	font-size: 14px;
 	color: #636363;
 	max-width: 250px;	
@@ -95,12 +106,13 @@ h1 {
 }
 
 
-#vat, #total, #subtotal, #discount {
+#vat, #total, #subtotal, #discount, #user_pin {
 	width: 25%;
 	padding: 12px 20px;
 	margin-top: 5px;
 	border-radius: 8px;
 	border: 1px solid black;
+	text-align: center;
 }
 
 #btnProceed {
@@ -120,10 +132,63 @@ h1 {
 	background-color: #c1c1c1; /* Green */
 }
 
+#btnPurchase {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#btnPurchase:disabled {
+	background-color: #c1c1c1;
+}
+
+#btnValidate {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FF8D33;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #clearchoice {
-	color:#666;
+	color:#c1c1c1;
 }
 
 #subtotal-title {
 	font-size: 20px;
+}
+
+input, select, textarea { 
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#paymentdetails {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+:-moz-placeholder {
+   text-align: center;  
+}
+::-moz-placeholder {
+   text-align: center;  
+}
+:-ms-input-placeholder {  
+   text-align: center; 
 }
