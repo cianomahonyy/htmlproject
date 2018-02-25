@@ -187,3 +187,47 @@ input, select, textarea {
 #email {
 	padding-top: 10px;
 }
+
+#receipt {
+	font-size: 40px;
+
+}
+
+#receiptname {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#receiptemail {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+#receiptprice {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.receiptwrapper {
+	border: 4px solid #c1c1c1;
+	margin: 20px 10px;
+	width: 50%;
+	height: 500px;
+	margin-left: 25%;
+	border-radius: 8px;
+}
+
+.receiptpricewrapper {
+	border: 4px solid #c1c1c1;
+	height: 300px;
+	margin: 0px -10px;
+	width: 100%;
+}
+
+
+
+

@@ -47,7 +47,7 @@ session_start();
 
           <label for="name">
 
-            <input type="text" id="name" placeholder="Name" value=""/>
+            <input type="text" id="name" name="name" placeholder="Name" value=""/>
 
           </label>
 
@@ -55,7 +55,7 @@ session_start();
 
           <label for="email">
 
-            <input type="text" id="email" placeholder="Email" value=""/>
+            <input type="text" id="email" name="email" placeholder="Email" value=""/>
 
           </label>
 
@@ -80,16 +80,18 @@ session_start();
           <br/>
             
             
-          <button id="btnValidate" onClick="validateDetails()" enabled>Validate</button>
+        <button id="btnValidate" onClick="validateDetails()" enabled>Validate</button>
+          
             
-            
-            
-        </div>    
-            
-            <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
+        </div>
+        
+        <?php
+        // Set session variables
+        $_SESSION["total"] = $_POST["total"];
+        $_SESSION["vat"] = $_POST["vat"];
+        $_SESSION["discount"] = $_POST["discount"];
+        $_SESSION["subtotal"] = $_POST["subtotal"];
+        ?>
         
     </body>
 </html>

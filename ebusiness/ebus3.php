@@ -27,11 +27,32 @@ session_start();
         
         
         
-        <h4>RECEIPT</h4>
+    <h4 align="center" id="receipt">Receipt</h4>
                 
         <?php
-        // Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        $_SESSION["name"] = $_POST["name"];
+        $_SESSION["email"] = $_POST["email"];
+        
+        echo "<div align='center' class='receiptwrapper'>";
+        
+        echo "<h4 id='receiptname'>Name: " . $_SESSION['name'] . "</h4>";
+        echo "<h4 id='receiptemail'>Email: " . $_SESSION['email'] . "</h4>";
+        
+        echo "<div align='center' class='receiptpricewrapper'>";
+        
+        echo "<h4 align='center' id='prouctname'>Salesforce</h4>";
+        
+        echo "<h4 id='receiptprice'>Subtotal: " . $_SESSION['subtotal'] . "</h4>";
+        echo "<h4 id='receiptprice'>VAT: " . $_SESSION['vat'] . "</h4>";
+        echo "<h4 id='receiptprice'>Discount: " . $_SESSION['discount'] . "</h4>";
+        echo "<h4 id='receiptprice'>Total: " . $_SESSION['total'] . "</h4>";
+        
+        echo "</div>";
+        
+        echo "<h2>Thank You For Your Order!</h2>";
+        
+        echo "</div>";
+        
         ?>
     </body>
 </html>

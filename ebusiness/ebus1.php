@@ -28,7 +28,7 @@
 
     <div class="heading">Services</div>
     
-    <form method="POST" action="ebus2.php">
+    <form method="POST" action="ebus3.php">
     
     <div align="center" class="services">
         <div class="service1">
@@ -81,28 +81,28 @@
               
               <label for="subtotal">
               <h2 id="subtotal-title">Subtotal</h2>
-              <input type="text" id="subtotal" value="" readonly/>
+              <input type="text" name="subtotal" id="subtotal" value="" readonly/>
               </label>
             
               </br>
               
               <label for="discount">
               <h2 id="subtotal-title">Discount</h2>
-              <input type="text" id="discount" value="" readonly/>
+              <input type="text" name="discount" id="discount" value="" readonly/>
               </label>
             
               </br>
               
               <label for="vat">
               <h2 id="subtotal-title">VAT</h2>
-              <input type="text" id="vat" value="" readonly/>
+              <input type="text" name="vat" id="vat" value="" readonly/>
               </label>
             
               </br>
               
               <label for="total">
-              <h2 id="subtotal-title">Subtotal</h2>
-              <input type="text" id="total" name="total" value="" readonly/>
+              <h2 id="subtotal-title">Total</h2>
+              <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
               <br/>
