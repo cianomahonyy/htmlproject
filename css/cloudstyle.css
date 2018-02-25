@@ -49,17 +49,7 @@ body {
 	float: left;
 }
 
-.cloud9 {
-	padding-top: 17px;
-}
-
 .service1 > p {
-	font-size: 14px;
-	color: #636363;
-	max-width: 250px;	
-}
-
-.cloud9 > p {
 	font-size: 14px;
 	color: #636363;
 	max-width: 250px;	
@@ -106,13 +96,14 @@ h1 {
 }
 
 
-#vat, #total, #subtotal, #discount, #user_pin {
+#vat, #total, #subtotal, #discount, #user_pin, #email, #name {
 	width: 25%;
 	padding: 12px 20px;
 	margin-top: 5px;
 	border-radius: 8px;
 	border: 1px solid black;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 #btnProceed {
@@ -191,4 +182,8 @@ input, select, textarea {
 }
 :-ms-input-placeholder {  
    text-align: center; 
+}
+
+#email {
+	padding-top: 10px;
 }

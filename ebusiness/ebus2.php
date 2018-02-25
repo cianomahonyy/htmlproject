@@ -43,24 +43,44 @@ session_start();
         <h4 id="paymentdetails">Enter Your Payment Details</h4>
         
         
-            <form action="ebus3.php" method="POST">
+        <form action="ebus3.php" method="POST">
 
-                    <label for="user_pin">
+          <label for="name">
+
+            <input type="text" id="name" placeholder="Name" value=""/>
+
+          </label>
+
+          </br>
+
+          <label for="email">
+
+            <input type="text" id="email" placeholder="Email" value=""/>
+
+          </label>
+
+          </br>
+
+          <label for="user_pin">
                     
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     
-                    </label>
+          </label>
+
+          </br>
             
-            </br>
+          
+          
+          </br>
             
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
-            </form>
+          </form>
             
-            <br/>
+          <br/>
             
             
-            <button id="btnValidate" onClick="validateDetails()" enabled>Validate</button>
+          <button id="btnValidate" onClick="validateDetails()" enabled>Validate</button>
             
             
             
