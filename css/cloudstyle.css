@@ -262,8 +262,6 @@ input, select, textarea {
 }
 
 .btnDisplayProducts {
-	margin-top: 20px;
-	margin-bottom: 20px;
 	background-color: #fff;
 	border-radius: 8px;
     border: none;
@@ -273,7 +271,6 @@ input, select, textarea {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 42%;
     margin-top: 350px;
     font-family: 'Helvetica';
     font-weight: bold;
