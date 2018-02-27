@@ -24,7 +24,7 @@ session_start();
     <ul class="nav">
 
       <div class="logo">
-          <a href="#">LOGO</a>
+          <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/></li>
       </div>
 
       <li><a href="cloudhome.html">Home</a></li>
