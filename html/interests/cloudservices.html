@@ -1,70 +1,56 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-
-    <link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-new-age/device-mockups/device-mockups.min.css">
-
-    <title>Pricing example for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <header class="masthead">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-              <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
-            </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="https://cdn.pixabay.com/photo/2018/02/19/18/15/people-3165752_960_720.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Travel</title>
+        <link rel="stylesheet" href="../../css/cloudstyle.css" type="text/css" />
+        
+        <!--Adding Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+        <!--Page Piling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+                });
+             });
+        </script>
+    
+    </head>
+    <body>
+        
+    <div id="pagepiling">
+        <div class="section" id="section1">
+            <h1 id="cloudservices-title">Cloud Services</h1>
+            <p id="cloudservices-subtitle1">The term "cloud computing" is everywhere. In the simplest terms, cloud computing means storing and accessing data and programs over the Internet instead of your computer's hard drive. The cloud is just a metaphor for the Internet.</p>
         </div>
-      </div>
-    </header>
+    <div class="section" id="section2">
+            <h1 id="cloudservices-title">Usage</h1>
+            <p id="cloudservices-subtitle2">Using the cloud as a form of storage is the future. Industry leaders such as Dropbox, iCloud and Google Drive are changing the world of storage through cloud technology. Cloud can offer you the possibility of storing your files and accessing, storing and retrieving them from any web-enabled interface. The web services interfaces are usually simple. At any time and place you have high availability, speed, scalability and security for your environment. </p>
+    </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1 id="cloudservices-title">Growth</h1>
+            <p id="cloudservices-subtitle3">The cloud offers a flexible way for businesses to accommodate both unpredictable demand and planned growth more cost effectively. It can also be used as a platform for delivering new services and accelerating your time-to-market. One of the aspects offered by leveraging cloud computing is the ability to tap into vast quantities of both structured and unstructured data to harness the benefit of extracting business value.</p>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="intro">
+            <h1 id="cloudservices-title">Interested?</h1>
+            <p id="cloudservices-subtitle4">Clouido offers the latest in Cloud Technology!</p>
+            <a href="../../ebusiness/ebus1.php" class="btnCloudServices">View Products</a>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
-  </body>
+        
+    </body>
 </html>

@@ -65,7 +65,7 @@ body, html {
 	margin: 0 auto;
 }
 
-h1 {
+.services h1 {
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #c1c1c1;
@@ -322,4 +322,188 @@ input, select, textarea {
 	width: 100%;
 	margin-top: 60px;
 	background-color: #08B2FB;
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
+
+    h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:0;
+    }
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+.section {
+    text-align:center;
+}
+
+
+    /* Backgrounds will cover all the section
+    * --------------------------------------- */
+#section1, #section2, #section3{
+	background-size: cover;
+}
+
+		    /* Defining each section background and styles
+		    * --------------------------------------- */
+#section1 {
+	background-image: url(../images/pattern1.jpeg);
+}
+#section2 {
+	background-image: url(../images/pattern2.png);
+	padding: 6% 0 0 0;
+}
+#section3 {
+	background-image: url(../images/pattern3.jpeg);
+	padding: 6% 0 0 0;
+}
+#section4 {
+	background-image: url(../images/sky.jpeg);
+	padding: 6% 0 0 0;
+}
+#section3 h1 {
+	color: #000;
+}
+
+
+
+#cloudservices-title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 18%;
+	color: #fff;
+	font-size:120px;
+}
+
+#cloudservices-subtitle1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 600px;
+	margin: 0 auto;
+	top: 50%;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	border: 4px solid #fff;
+	border-radius: 8px;
+	background-image: url(../images/pattern1.jpeg);
+}
+
+#cloudservices-subtitle2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 600px;
+	margin: 0 auto;
+	top: 50%;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	border: 4px solid #fff;
+	border-radius: 8px;
+	background-image: url(../images/tahiti.jpeg);
+	background-position: bottom;
+
+}
+
+#cloudservices-subtitle3 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 600px;
+	margin: 0 auto;
+	top: 50%;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	border: 4px solid #fff;
+	border-radius: 8px;
+	background-image: url(../images/pattern3.jpeg);
+	background-position: bottom; 
+}
+
+#cloudservices-subtitle4 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 600px;
+	margin: 0 auto;
+	top: 50%;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	border: 4px solid #fff;
+	border-radius: 8px;
+	background-image: url(../images/sky.jpeg);
+	background-position: center; 
+}
+
+#section2 .intro {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 30px;
+}
+#section1 h1, #section1 p {
+	text-shadow: 1px 5px 20px #000;
+}
+#section2 h1, #section2 p {
+	text-shadow: 1px 5px 20px #000;
+}
+
+#section3 h1, #section3 p {
+	text-shadow: 1px 5px 20px #000;
+	color: #fff;
+}
+
+#infoMenu li a {
+	color: #fff;
+}
+
+#section1{
+   background-color: rgb(238, 0, 90);
+}
+
+#section2{
+    background-color: rgb(44, 62, 80);
+}
+
+#section3{
+    background-color: rgb(51, 153, 204);
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
+
+.btnCloudServices {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+    border: none;
+    color: #666;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: 250px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+.btnCloudServices a {
+    text-decoration: none;
 }
