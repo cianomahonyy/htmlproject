@@ -49,7 +49,7 @@ session_start();
         
         echo "</div>";
         
-        echo "<h2>Thank You For Your Order!</h2>";
+        echo "<h2 id='receiptthankyou'>Thank You For Your Order!</h2>";
         
         echo "</div>";
         
