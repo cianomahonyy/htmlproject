@@ -706,19 +706,6 @@ h1 {
     padding-bottom: 50px;
 }
 
-@media(max-width:568px){
-    .app-wrapper {
-    display: none;
-}
-    .navbar-light .navbar-toggler .navbar-toggler-icon {
-        margin-left:150px;
-    }
-    
-    #spain-title {
-        font-size: 50px;
-    }
-}
-
 @media(max-width:970px){
     .app-wrapper {
     display: none;
@@ -726,4 +713,38 @@ h1 {
     .navbar-light .navbar-toggler .navbar-toggler-icon {
         margin-left:150px;
     }
+
+    #sports-paragraph {
+        width: 600px;
+        padding-bottom: 50px;
+        margin-left: 15%;
+    }
+
+    .circlewindow {
+        margin-left: 20%;
+    }
+
+    #surfvideo {
+        width: 90%;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:568px){
+    .app-wrapper {
+    display: none;
+}
+    .navbar-light .navbar-toggler .navbar-toggler-icon {
+        margin-left:150px;
+    }
+
+    #spain-title {
+        font-size: 50px;
+    }
+
+    #surf-video {
+        display: none;
+    }
+
+    
 }
