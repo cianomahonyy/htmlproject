@@ -673,6 +673,39 @@ h1 {
     margin-top: 200px;
 }
 
+#services {
+    background-image: url(https://www.beautycolorcode.com/267a86-2880x1800.png);
+    height: 350px;
+}
+
+.masthead {
+    background-image: url(../images/pink.jpeg);
+    background-size: cover;
+    height: 100%
+}
+
+.aboutme-header {
+    color:#fff;
+    font-size: 90px;
+}
+
+.aboutme-subheader {
+    color:#fff;
+    font-size: 50px;
+}
+
+.traits-title {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.traits-subtitle {
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
 @media(max-width:568px){
     .app-wrapper {
     display: none;
