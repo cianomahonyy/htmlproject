@@ -34,7 +34,7 @@ body, html {
     background-image:url('../images/wavebg.jpeg');
     min-height:100%;
     position:relative;
-    opacity:0.70;
+    opacity:0.90;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -311,7 +311,7 @@ body, html {
 
 .wrapper {
     background-color: #f05f40;
-    height: 50%;
+    height: 450px;
 }
 
 .skillbar {
@@ -397,28 +397,26 @@ width:110px;
     color: white;
 }
 
-    h1{
-        font-size: 5em;
-        font-family: arial,helvetica;
-        color: #fff;
-        margin:0;
-        padding:0;
-    }
+h1 {
+    font-size: 5em;
+    font-family: arial,helvetica;
+    color: #fff;
+    margin:0;
+    padding:0;
+}
 
     /* Centered texts in each section
     * --------------------------------------- */
-    .section {
-        text-align:center;
-    }
+.section {
+    text-align:center;
+}
 
 
     /* Backgrounds will cover all the section
     * --------------------------------------- */
-    #section1,
-    #section2,
-    #section3 {
-        background-size: cover;
-    }
+#section1,#section2,#section3 {
+    background-size: cover;
+}
 
     /* Defining each section background and styles
     * --------------------------------------- */
@@ -582,4 +580,94 @@ width:110px;
     margin-top: 50px;
 }
 
+#cvface {
+    position: fixed;
+    bottom: 0px;
+    left: 40%;
+}
 
+#js {
+    width: 100px;
+    margin-left: 40%;
+    transition: all .2s ease-in-out;
+}
+
+#js:hover {
+    transform: scale(1.2);
+}
+
+#vb {
+    width: 50px;
+    margin-left: 50%;
+    margin-top: -50px;
+    transition: all .2s ease-in-out;
+}
+
+#vb:hover {
+    transform: scale(1.2);
+}
+
+#php {
+    width: 80px;
+    margin-left: 50%;
+    margin-top: -50px;
+    transition: all .2s ease-in-out;
+}
+
+#php:hover {
+    transform: scale(1.2);
+}
+
+#css {
+    width: 50px;
+    margin-left: 40%;
+    padding-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+
+#css:hover {
+    transform: scale(1.2);
+}
+
+#ps {
+    width: 80px;
+    margin-left: 40%;
+    transition: all .2s ease-in-out;
+}
+
+#ps:hover {
+    transform: scale(1.2);
+}
+
+#html {
+    width: 60px;
+    margin-left: 50%;
+    margin-top: -50px;
+    transition: all .2s ease-in-out;
+}
+
+#html:hover {
+    transform: scale(1.2);
+}
+
+.app-wrapper {
+    margin-top: 200px;
+}
+
+@media(max-width:568px){
+    .app-wrapper {
+    display: none;
+}
+    .navbar-light .navbar-toggler .navbar-toggler-icon {
+        margin-left:150px;
+    }
+}
+
+@media(max-width:970px){
+    .app-wrapper {
+    display: none;
+}
+    .navbar-light .navbar-toggler .navbar-toggler-icon {
+        margin-left:150px;
+    }
+}
