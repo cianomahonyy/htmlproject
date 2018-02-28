@@ -41,6 +41,17 @@ body, html {
     background-attachment:fixed;
 }
 
+.aboutme-image {
+    background-image:url('../images/wavebg.jpeg');
+    min-height:10%;
+    position:relative;
+    opacity:0.90;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
 .homepage-image {
     background-image:url('../images/workbg.jpeg');
     min-height:33.3%;
@@ -281,6 +292,14 @@ body, html {
 }
 
 .navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../images/menutoggle.png");
+  background-repeat: no-repeat;
+  width:36px;
+  height:36px;
+  margin-left: 200px;
+}
+
+.navbar-dark > .navbar-light .navbar-toggler .navbar-toggler-icon {
   background-image: url("../images/menutoggle.png");
   background-repeat: no-repeat;
   width:36px;
