@@ -260,7 +260,7 @@ input, select, textarea {
 	color:#fff;
 	position: absolute;
 	top: 35%;
-	margin-left: 22%
+	margin-left: 20%;
 }
 
 .btnDisplayProducts {
@@ -516,3 +516,188 @@ input, select, textarea {
 	margin-top: -20px;
 }
 
+.saaspaas {
+	margin-top: 5%;
+}
+
+.iaascaas {
+	padding-top: 50px;
+}
+
+
+.saas {
+	width: 300px;
+	margin-left: 15%;
+}
+
+.iaas {
+	width: 300px;
+	margin-left: 15%;
+}
+
+.paas {
+	width: 300px;
+	margin-left: 61%;
+	margin-top: -365px;
+}
+
+.caas {
+	width: 300px;
+	margin-left: 61%;
+	margin-top: -425px;
+}
+
+#aboutcloud-header {
+	text-align: center;
+}
+
+#aboutcloud-image {
+	padding-left: 40px;
+}
+
+#aboutcloud-p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.aboutcloud {
+	margin-bottom: 100px;
+}
+
+
+@media(max-width:568px){
+    .paas {
+    	margin-left: 5%;
+    	padding-top: 400px;
+    }
+
+    .caas {
+    	margin-left: 5%;
+    	padding-top: 400px;
+    }
+
+    .saas {
+    	margin-left: 5%;
+    }
+
+    .iaas {
+    	margin-left: 5%;    }
+
+    .nav {
+	padding: 10px 0 10px 0;
+	}
+
+	.nav > li {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	font-size: 14px;
+	}
+
+	.nav > li > a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 11px;
+	}
+
+	.nav > li > a:hover {
+	color: #c1c1c1;
+	}
+
+	#cloudiologo {
+		width: 90px;
+	}
+
+	#cloudhome-subheading {
+    	margin-left: 8%;
+    	font-size: 25px;
+    }
+
+    #cloudhome-heading {
+    	margin-left:17%;
+    	font-size: 70px;
+    }
+
+    .image {
+    	width: 60%;
+    }
+
+    	#vat, #subtotal, #discount, #user_pin, #email, #name {
+	width: 35%;
+	padding: 8px 17px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	}
+
+	#total {
+	width: 35%;
+	padding: 8px 17px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-left: 115px;
+	}
+
+	#btnProceed {
+	margin-left: 115px;
+	}
+}
+
+@media screen and (max-width:970px) and (min-width: 568px){
+    .saas {
+    	margin-left: 5%;
+    }
+
+    .paas {
+    	margin-left: 50%;
+    }
+
+    .caas {
+    	margin-left: 50%;
+    }
+
+    .iaas {
+    	margin-left: 5%;
+    }
+
+    #cloudhome-subheading {
+    	margin-left: 3%;
+    }
+
+    #cloudhome-heading {
+    	margin-left:28%;
+    }
+
+    .image {
+    	width: 60%;
+    }
+
+    .services h1 {
+		font-size: 14px;
+	}
+
+	.service1 {
+		height: 300px;
+	}
+
+	#vat, #subtotal, #discount, #user_pin, #email, #name {
+	width: 35%;
+	padding: 8px 17px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	}
+
+	#total {
+	width: 35%;
+	padding: 8px 17px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-left: 185px;
+	}
+
+	#btnProceed {
+	margin-left: 185px;
+	}
+
+	.addtocart-wrapper {
+		width: 600px;
+	}
+}
