@@ -26,10 +26,11 @@ function calcSub(){
 }
 
 function calcDisVatTotal(parmSubTotal){
-  var argSubTotal = parmSubTotal
-  var vat = parmSubTotal * 0.1;
+  var argSubTotal = parmSubTotal;
   var discount = parmSubTotal * 0.05;
-  var total = parmSubTotal - discount - vat;
+  var discountAfterVat = parmSubTotal - discount;
+  var vat = discountAfterVat * 0.1;
+  var total = (parmSubTotal - discount) + vat;
   
   display(argSubTotal, vat, discount, total);
 }
