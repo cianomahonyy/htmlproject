@@ -713,6 +713,10 @@ h1 {
     .navbar-light .navbar-toggler .navbar-toggler-icon {
         margin-left:150px;
     }
+    
+    #spain-title {
+        font-size: 50px;
+    }
 }
 
 @media(max-width:970px){
