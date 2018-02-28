@@ -699,6 +699,30 @@ input, select, textarea {
 	#btnProceed {
 	margin-left: 115px;
 	}
+
+	#cloudservices-title {
+        font-size: 50px;
+    }
+
+    #cloudservices-subtitle1 {
+    	font-size: 15px;
+    	width: 300px;
+    }
+
+    #cloudservices-subtitle2 {
+    	font-size: 15px;
+    	width: 300px;
+    }
+
+    #cloudservices-subtitle3 {
+    	font-size: 15px;
+    	width: 300px;
+    }
+
+    #cloudservices-subtitle4 {
+    	font-size: 15px;
+    	width: 300px;
+    }
 }
 
 @media screen and (max-width:970px) and (min-width: 568px){
@@ -760,4 +784,9 @@ input, select, textarea {
 	.addtocart-wrapper {
 		width: 600px;
 	}
+
+	#cloudservices-title {
+        font-size: 80px;
+    }
+
 }
