@@ -706,6 +706,14 @@ h1 {
     padding-bottom: 50px;
 }
 
+#timeline-header {
+    margin-left: 32%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
 @media(max-width:970px){
     .app-wrapper {
     display: none;
