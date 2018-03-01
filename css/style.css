@@ -763,4 +763,10 @@ h1 {
         font-weight: bold;
     }
     
+    .nav > li > a {
+    padding-right: 50px;
+    color: #fff;
+    font-size: 12px;
+    }
+    
 }
