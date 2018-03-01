@@ -714,6 +714,11 @@ h1 {
     font-weight: bold;
 }
 
+#email, #phone {
+    font-weight: bold;
+}
+
+
 @media(max-width:970px){
     .app-wrapper {
     display: none;
@@ -753,6 +758,9 @@ h1 {
     #surf-video {
         display: none;
     }
-
+    
+    #email, #phone {
+        font-weight: bold;
+    }
     
 }
