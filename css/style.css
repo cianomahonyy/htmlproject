@@ -723,6 +723,10 @@ h1 {
     height: 500px;
 }
 
+#btnTravel {
+    margin-top: 100px;
+}
+
 
 @media(max-width:970px){
     .app-wrapper {
@@ -750,6 +754,7 @@ h1 {
     #timeline-header {
         font-size: 50px;
     }
+
 }
 
 @media(max-width:568px){
