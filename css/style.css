@@ -746,6 +746,10 @@ h1 {
         width: 90%;
         margin-left: 30px;
     }
+    
+    #timeline-header {
+        font-size: 50px;
+    }
 }
 
 @media(max-width:568px){
@@ -787,5 +791,9 @@ h1 {
 
     #traits {
         height: 680px;
+    }
+    
+    #timeline-header {
+        font-size: 30px;
     }
 }
