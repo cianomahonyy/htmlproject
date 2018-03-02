@@ -750,7 +750,7 @@ h1 {
     #sports-paragraph {
         width: 600px;
         padding-bottom: 50px;
-        margin-left: 15%;
+        margin-left: 10%;
     }
 
     .circlewindow {
@@ -765,25 +765,11 @@ h1 {
     #timeline-header {
         font-size: 50px;
     }
-    
-    #cloudservices-title {
-        font-size: 50px;
+
+    #sports-header-title {
+        font-size: 60px;
     }
 
-    #travel-subtitle1 {
-    	font-size: 15px;
-    	width: 300px;
-    }
-
-    #travel-subtitle2 {
-    	font-size: 15px;
-    	width: 300px;
-    }
-
-    #travel-subtitle3 {
-    	font-size: 15px;
-    	width: 300px;
-    }
 }
 
 @media(max-width:568px){
@@ -830,8 +816,20 @@ h1 {
     #timeline-header {
         font-size: 30px;
     }
-    
-    #cloudservices-title {
-        font-size: 80px;
+
+    #sports-paragraph {
+        font-size: 20px;
+        width: 360px;
+        margin-left: 8%;
+    }
+
+    .circlewindow {
+        width: 380px;
+        height: 380px;
+        margin-left: 2%
+    }
+
+    #sport-board2 {
+        font-size: 35px;
     }
 }
