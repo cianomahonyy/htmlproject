@@ -94,6 +94,7 @@ body, html {
 
 #subtotal-title {
 	font-size: 40px;
+	margin-top: 50px;
 }
 
 .addtocartwrapper {
@@ -109,6 +110,19 @@ body, html {
 	border: 1px solid black;
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+#btnCalculate {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 #btnProceed {
@@ -252,7 +266,6 @@ input, select, textarea {
 	color:#fff;
 	position: absolute;
 	top: 10%;
-	margin-left: 35%
 }
 
 #cloudhome-subheading {
@@ -260,7 +273,6 @@ input, select, textarea {
 	color:#fff;
 	position: absolute;
 	top: 35%;
-	margin-left: 20%;
 }
 
 .btnDisplayProducts {

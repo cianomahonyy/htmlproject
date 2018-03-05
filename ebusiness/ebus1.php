@@ -35,7 +35,7 @@
         <a href="#"><img class="image" src="../images/salesforce.png"></a>
         <p>Salesforce</p>
         <label for="salesforce">
-          <input type="radio" onClick="calcSub()" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+          <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
         </label>
       </div>
 
@@ -45,7 +45,7 @@
             <a href="#"><img class="image" src="../images/cloud9.png"></a>
             <p>Cloud 9</p>
             <label for="cloud9">
-              <input type="radio" onClick="calcSub()" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+              <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
             </label>
         </div>
       </div>
@@ -55,7 +55,7 @@
         <a href="#"><img class="image" src="../images/aws.png"></a>
         <p>Amazon Web Services</p>
         <label for="aws">
-          <input type="radio" onClick="calcSub()" id="aws" name="product" onClick="disablebtnProceed()"/>
+          <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
         </label>
       </div>
 
@@ -64,7 +64,7 @@
         <a href="#"><img class="image" src="../images/gmail.png"></a>
         <p>Gmail</p>
         <label for="gmail">
-          <input type="radio" onClick="calcSub()" id="gmail" name="product" onClick="disablebtnProceed()"/>
+          <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
         </label>
       </div>
     </div>
@@ -106,7 +106,13 @@
         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
               
       </form>
-            
+      
+      </br>
+      
+      <button onClick="calcSub()" id="btnCalculate">Calculate Cost</button>
+      
+      </br>
+      
       <a role="button" id="clearchoice" href="ebus1.php">Clear</a>
     
     </div>
