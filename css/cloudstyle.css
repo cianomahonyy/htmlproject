@@ -32,19 +32,6 @@ body, html {
 	color: #c1c1c1;
 }
 
-.logo {
-	color: #000000;
-	float: left;
-	padding-left: 25px;
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.logo > a {
-	text-decoration: none;
-	color: #000000;
-}
-
 .service1 {
 	width: 22%;
 	height: 322px;
@@ -115,7 +102,7 @@ body, html {
 #btnCalculate {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #4CAF50; /* Green */
+	background-color: #5CE3C2; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -266,6 +253,7 @@ input, select, textarea {
 	color:#fff;
 	position: absolute;
 	top: 10%;
+	margin-left: 35%;
 }
 
 #cloudhome-subheading {
@@ -273,6 +261,7 @@ input, select, textarea {
 	color:#fff;
 	position: absolute;
 	top: 35%;
+	margin-left:20%;
 }
 
 .btnDisplayProducts {
@@ -559,15 +548,15 @@ input, select, textarea {
 	margin-top: -525px;
 }
 
-#aboutcloud-header {
+.aboutcloud-header {
 	text-align: center;
 }
 
-#aboutcloud-image {
+.aboutcloud-image {
 	padding-left: 40px;
 }
 
-#aboutcloud-p {
+.aboutcloud-p {
 	text-align: center;
 	font-size: 14px;
 }
@@ -676,7 +665,13 @@ input, select, textarea {
 	}
 
 	#cloudiologo {
-		width: 90px;
+		width: 150px;
+		margin-top: -20px;
+		color: #000000;
+		float: left;
+		padding-left: 25px;
+		font-size: 16px;
+		font-weight: bold;
 	}
 
 	#cloudhome-subheading {
