@@ -79,7 +79,7 @@ body, html {
 	margin: 100px 0 50px 0;
 }
 
-#subtotal-title {
+.subtotal-title {
 	font-size: 40px;
 	margin-top: 50px;
 }
@@ -165,7 +165,7 @@ body, html {
 	color:#c1c1c1;
 }
 
-#subtotal-title {
+.subtotal-title {
 	font-size: 20px;
 }
 

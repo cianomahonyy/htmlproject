@@ -8,7 +8,7 @@
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
         <link rel="stylesheet" href="../css/cloudstyle.css" type="text/css" />
     </head>
     
@@ -16,9 +16,7 @@
    
     
     <ul class="nav">
-      <div class="logo">
-          <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/></li>
-      </div>
+      <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/>
       <li><a href="cloudhome.html">Home</a></li>
       <li><a href="aboutcloud.html">About Cloud</a></li>
       <li><a href="ebus1.php">Products</a></li>
@@ -32,7 +30,7 @@
     <div align="center" class="services">
       <div class="service1">
         <h1>Salesforce</h1>
-        <a href="#"><img class="image" src="../images/salesforce.png"></a>
+        <a href="#"><img class="image" alt="salesforce" src="../images/salesforce.png"></a>
         <p>Salesforce</p>
         <label for="salesforce">
           <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -42,7 +40,7 @@
       <div class="service1">
         <h1>Cloud 9</h1>
         <div class="cloud9">
-            <a href="#"><img class="image" src="../images/cloud9.png"></a>
+            <a href="#"><img class="image" alt="cloud9" src="../images/cloud9.png"></a>
             <p>Cloud 9</p>
             <label for="cloud9">
               <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
@@ -52,7 +50,7 @@
 
       <div class="service1">
         <h1>Amazon Web Services</h1>
-        <a href="#"><img class="image" src="../images/aws.png"></a>
+        <a href="#"><img class="image" alt="amazon web services" src="../images/aws.png"></a>
         <p>Amazon Web Services</p>
         <label for="aws">
           <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
@@ -61,7 +59,7 @@
 
       <div class="service1">
         <h1>Gmail</h1>
-        <a href="#"><img class="image" src="../images/gmail.png"></a>
+        <a href="#"><img class="image" alt="gmail" src="../images/gmail.png"></a>
         <p>Gmail</p>
         <label for="gmail">
           <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
@@ -76,28 +74,28 @@
       <form method="POST" action="ebus2.php">
                 
         <label for="subtotal">
-          <h2 id="subtotal-title">Subtotal</h2>
+          <h2 class="subtotal-title">Subtotal</h2>
           <input type="text" name="subtotal" id="subtotal" value="" readonly/>
         </label>
               
-        </br>
+        <br/>
                 
         <label for="discount">
-          <h2 id="subtotal-title">Discount</h2>
+          <h2 class="subtotal-title">Discount</h2>
           <input type="text" name="discount" id="discount" value="" readonly/>
         </label>
               
-        </br>
+        <br/>
                 
         <label for="vat">
-          <h2 id="subtotal-title">VAT</h2>
+          <h2 class="subtotal-title">VAT</h2>
           <input type="text" name="vat" id="vat" value="" readonly/>
         </label>
               
-        </br>
+        <br/>
                 
         <label for="total">
-          <h2 id="subtotal-title">Total</h2>
+          <h2 class="subtotal-title">Total</h2>
           <input type="text" id="total" name="total" value="0.00" readonly/>
         </label>
       
@@ -107,11 +105,11 @@
               
       </form>
       
-      </br>
+      <br/>
       
       <button onClick="calcSub()" id="btnCalculate">Calculate Cost</button>
       
-      </br>
+      <br/>
       
       <a role="button" id="clearchoice" href="ebus1.php">Clear</a>
     
