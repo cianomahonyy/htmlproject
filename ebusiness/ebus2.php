@@ -8,7 +8,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script src="ebus2_validator.js"></script>
         
         <title>Enter Details</title>
         <meta charset="utf-8"/>
@@ -17,7 +17,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
         <link rel="stylesheet" href="../css/cloudstyle.css" type="text/css" />
         
     </head>
@@ -25,17 +25,12 @@ session_start();
         
         
     <ul class="nav">
-      <div class="logo">
-          <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/></li>
-      </div>
+      <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/>
       <li><a href="cloudhome.html">Home</a></li>
       <li><a href="aboutcloud.html">About Cloud</a></li>
       <li><a href="ebus1.php">Products</a></li>
       <li><a href="contactus.html">Contact Us</a></li>
     </ul>
-        
-        
-        
         
         
     <div align="center" class="addtocart-wrapper">
@@ -46,20 +41,20 @@ session_start();
             <input type="text" id="name" name="name" placeholder="Name" value=""/>
           </label>
 
-          </br>
+          <br/>
 
           <label for="email">
             <input type="text" id="email" name="email" placeholder="Email" value=""/>
           </label>
 
-          </br>
+          <br/>
 
           <label for="user_pin">
             <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
           </label>
 
-          </br>
-          </br>
+          <br/>
+          <br/>
             
           <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
       </form>

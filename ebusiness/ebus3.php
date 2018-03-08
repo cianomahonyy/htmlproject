@@ -46,10 +46,10 @@ session_start();
         
                 echo "<h4 align='center' id='prouctname'>Salesforce</h4>";
         
-                echo "<h4 id='receiptprice'>Subtotal: " . $_SESSION['subtotal'] . "</h4>";
-                echo "<h4 id='receiptprice'>VAT: " . $_SESSION['vat'] . "</h4>";
-                echo "<h4 id='receiptprice'>Discount: " . $_SESSION['discount'] . "</h4>";
-                echo "<h4 id='receiptprice'>Total: " . $_SESSION['total'] . "</h4>";
+                echo "<h4 class='receiptprice'>Subtotal: " . $_SESSION['subtotal'] . "</h4>";
+                echo "<h4 class='receiptprice'>VAT: " . $_SESSION['vat'] . "</h4>";
+                echo "<h4 class='receiptprice'>Discount: " . $_SESSION['discount'] . "</h4>";
+                echo "<h4 class='receiptprice'>Total: " . $_SESSION['total'] . "</h4>";
         
             echo "</div>";
         
