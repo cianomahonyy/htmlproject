@@ -13,6 +13,26 @@ body, html {
     margin-right: -15px;
 }
 
+#heroku-link {
+    color:white;
+    margin-top: 0px;
+}
+
+#github-link {
+    color:white;
+    margin-top: 10px;
+}
+
+#github-link a {
+    color:white;
+    text-decoration: none;
+}
+
+#heroku-link a {
+    color:white;
+    text-decoration: none;
+}
+
 #section1{
    background-color: rgb(238, 0, 90);
 }
