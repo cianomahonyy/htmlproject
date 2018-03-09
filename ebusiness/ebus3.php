@@ -19,15 +19,12 @@ session_start();
         
         
     <ul class="nav">
-      <div class="logo">
-          <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/></li>
-      </div>
+      <img src="../images/cloudiologo.png" id="cloudiologo" href="cloudhome.html"/></li>
       <li><a href="cloudhome.html">Home</a></li>
       <li><a href="aboutcloud.html">About Cloud</a></li>
       <li><a href="ebus1.php">Products</a></li>
       <li><a href="contactus.html">Contact Us</a></li>
     </ul>
-        
         
         
     <h4 align="center" id="receipt">Receipt</h4>
@@ -43,8 +40,6 @@ session_start();
             echo "<h4 id='receiptemail'>Email: " . $_SESSION['email'] . "</h4>";
         
             echo "<div align='center' class='receiptpricewrapper'>";
-        
-                echo "<h4 align='center' id='prouctname'>Salesforce</h4>";
         
                 echo "<h4 class='receiptprice'>Subtotal: " . $_SESSION['subtotal'] . "</h4>";
                 echo "<h4 class='receiptprice'>VAT: " . $_SESSION['vat'] . "</h4>";

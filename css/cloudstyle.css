@@ -513,8 +513,18 @@ input, select, textarea {
 }
 
 #cloudiologo {
+	color: #000000;
+	float: left;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: bold;
 	width: 150px;
-	margin-top: -20px;
+	margin-top: -10px;
+}
+
+#cloudiologo > a {
+	text-decoration: none;
+	color: #000000;
 }
 
 .saaspaas {
@@ -665,13 +675,7 @@ input, select, textarea {
 	}
 
 	#cloudiologo {
-		width: 150px;
-		margin-top: -20px;
-		color: #000000;
-		float: left;
-		padding-left: 25px;
-		font-size: 16px;
-		font-weight: bold;
+		width: 90px;
 	}
 
 	#cloudhome-subheading {
